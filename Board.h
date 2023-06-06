@@ -13,7 +13,7 @@ using namespace std;
 
 struct Saved_Move{
     Move maked_move;
-    vector<vector<int>> saved_enemy_list; //<row, col, color(1/2 indicate "B"/"W", is_king>
+    vector<vector<int> > saved_enemy_list; //<row, col, color(1/2 indicate "B"/"W", is_king>
     bool become_king;
 };
 
